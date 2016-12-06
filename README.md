@@ -12,10 +12,13 @@ Nice and lightweight, nice and simple, wraps a Tk project into a class, or start
 
     from Tkinter import *
     class Application:
-        def __init__(self, master): 
-            
+        def __init__(self, master):
+        
             #def your_program_functions():
-                #print("Awesomeness")
+                #if ben is awesome:
+                    #print("Awesomeness")
+                #else:
+                    #print('Ben is still awesome')
                             
             frame = Frame(master)
             frame.pack()
@@ -24,11 +27,12 @@ Nice and lightweight, nice and simple, wraps a Tk project into a class, or start
             btn_one = Button(master, text='Exit', command=quit)
             btn_one.pack(side=BOTTOM)
 
-    root = Tk()
-    app = Application(root)
-    root.title('Title Here')
-    root.minsize(300,300)
-    root.mainloop()
+    # GUI configurations
+    root = Tk()                # Parent Window
+    app = Application(root)    # Kickstart the main application
+    root.title('Title Here')   # Windows main title
+    root.minsize(300,300)      # Window default sizes
+    root.mainloop()            # Loop to display everything
 
 
 This creates an application class (called Application). The constructor is the __init__ method. It is called with a Parent widget, which we have named 'master'. Then from there we add our program. The frame is known as a container, everything that gets added to this template will be diaplayed within this frame. This container will hold ALL of the child widgets. Child widgets are things like buttons and labels within the tkinter GUI. The content you would write as normal.

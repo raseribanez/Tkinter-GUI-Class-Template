@@ -48,3 +48,7 @@ Then at the end you see the usual Tkinter configuration stuff - creating a root 
 And finally the good old mainloop to kick start it all
 
 I hope this template is of use to somebody. If it isn't I am not too bothered as I know I will get some use from it, that is why I made this repo, I make so many little Tkinter apps just playing around, and I get lazy...I find myself opening other projects as a starting point for a new one, so that was the reason I wanted a template to start me off.
+
+If you want to see how to apply your GUI project to this template, see the example program I included in this repository. I took an older program I wrote in Tkinter, and wrapped it completely in this template, so you can see where you would put your functions, and widgets, such as buttons, and labels. It asks the user to enter a frequency in MHz and then calculates the wavelength in meters for that frequency - I used it for designing antennas for Amateur Radio
+
+
